@@ -1,0 +1,31 @@
+{
+  "name": "classify",
+  "version": "0.0.1",
+  "description": "Get a remedial type string for any value. Replace all the `typeof`s.",
+  "main": "classify.js",
+  "scripts": {
+    "test": "./node_modules/criteria/bin/criteria test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikol/classify.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "remedial",
+    "typeof"
+  ],
+  "author": {
+    "name": "Mikol Graves",
+    "email": "mikol@thinbox.org",
+    "url": "https://mikol.github.io/"
+  },
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/mikol/classify/issues"
+  },
+  "homepage": "https://github.com/mikol/classify#readme",
+  "devDependencies": {
+    "criteria": "git+https://github.com/mikol/criteria.git"
+  }
+}
