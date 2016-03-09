@@ -10,6 +10,15 @@ var dependencies = [];
 function factory() {
   var _classify = {}.toString.call.bind({}.toString);
 
+  /**
+   * Returns a remedial type string for `v`.
+   *
+   * @param {*} v - The value to test.
+   *
+   * @return {!string} One of `'array'`, `'boolean'`, `'date'`, `'error'`,
+   *     `'function'`, `'nan'`, `'null'`, `'number'`, `'object'`, `'promise'`,
+   *     `'regexp'`, `'string'`, `'symbol'`, or `'undefined'`.
+   */
   return function classify(v) {
     if (v === null) {
       return 'null';
