@@ -27,7 +27,6 @@ function factory() {
    *     `'uint32array'`, `'undefined'`, `'weakmap'`, `'weakset'`, or – if `v`
    *     is a custom type – its lowercase constructor name.
    */
-
   return function classify(v, options) {
     if (options == null) {
       options = {};
@@ -61,7 +60,7 @@ function factory() {
     }
 
     return c;
-  }
+  };
 }
 
 // -----------------------------------------------------------------------------
